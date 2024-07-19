@@ -9,13 +9,13 @@ let valueInNumber = Number(score);
 // console.log(valueInNumber);
 
 let b = "55abs";
-// let b = null; // value=0 type=object
-// let b = true; //value=1 ,if false then 0 ,type boolean
+// let b = null; // value=>0 ; type=object
+// let b = true; // value=>1 ;if false then 0 ,type boolean
 // let b = undefined; // type=> undefined ,value =>NaN
 let value = Number(b);
-// console.log(typeof value);
-// console.log(typeof b);
-// console.log(value); // NaN
+// console.log(typeof value); // => number
+// console.log(typeof b); // => String
+// console.log(value); //  => NaN
 
 let isLoggedIn = "arpan";
 let booleanIsLoggedIn = Boolean(isLoggedIn);
