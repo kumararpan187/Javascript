@@ -55,3 +55,27 @@ const myfun = function () {
 //             |    String                        "String"      |
 //             |------------------------------------------------|
 
+
+// ******************************************************************************************************
+// memory    - Stack(primitive)   ;  Heap(non-primitive)
+
+
+
+let favGame = "Cricket";
+
+let anotherGame = favGame;
+anotherGame = "chaiAurCode";
+// console.log(favGame);
+// console.log(anotherGame);
+
+
+let userOne = {
+    email: "arpanOne@gmail.com",
+    upi: "arpanOne@ybl"
+};
+
+let userTwo = userOne;
+userTwo.email = "updated@gmail.com";  // => both userOne and userTwo email will be updated to new one due to reference
+// console.log(userOne);
+// console.log(userTwo);
+
