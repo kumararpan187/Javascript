@@ -38,7 +38,9 @@ console.log(`n1 : ${n1}`);  // => n1 : 0, 1, 2, 3, 4, 5, 6, 7
 
 
 let n2 = [0, 1, 2, 3, 4, 5, 6, 7];
+
 console.log(`n2 : ${n2}`); // => n2: 0, 1, 2, 3, 4, 5, 6, 7
+
 let p2 = n2.splice(1, 5); // splice changes the original array ; here means 1-5 all included 
 console.log(`p2 : ${p2}`) // => p2: 1, 2, 3, 4, 5
 console.log(`n2 : ${n2}`); // =>    n2 : 0, 6, 7 
