@@ -35,8 +35,9 @@ let real_ar = ar.flat(Infinity);
 
 let s1 = 100;
 let s2 = 200;
-let s3 = 300;
+let s3 = 300; 
 //             returns a new array from the set of elements
 // console.log(Array.of(s1, s2, s3)); // => [ 100, 200, 300 ]
 
 
+   
